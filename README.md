@@ -1,8 +1,9 @@
-# seeking-tutor-problem
+# Seeking Tutor Problem:
 
 The seeking tutor problem is a more complex sleeping barber problem.
+Here, I implement a solution in C programming language using POSIX threads, mutex locks, and semaphores 
+that synchronizes the activities of the coordinator, tutors, and the students. 
 
-Seeking Tutor Problem:
 The computer science department runs a mentoring center (csmc) to help undergraduate
 students with their programming assignments. The lab has a coordinator and several
 tutors to assist the students. The waiting area of the center has several chairs. Initially, all
@@ -25,9 +26,6 @@ a tutor. A student visiting the center for the first time gets the highest prior
 a student visiting to take help for the ith time has a priority higher than the priority of the
 student visiting to take help for the kth time for any k > i. If two students have the same
 priority, then the student who came first has a higher priority.
-
-Using POSIX threads, mutex locks, and semaphores implement a solution that
-synchronizes the activities of the coordinator, tutors, and the students. 
 
 The total number of students, the number of tutors, the number of chairs, and the number
 of times a student seeks a tutor’s help are passed as command line arguments as shown
